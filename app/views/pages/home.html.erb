@@ -27,7 +27,7 @@
 							<tr>
 								<td class="text-left"><%= guest.fullname %></td>
 								<td><%= guest.phone_number %></td>
-								<td id="guest-td-<%= guest.id %>"><button class="btn btn-red" id="hack-<%= guest.id %>">Hack</button></td>
+								<td id="guest-td-<%= guest.id %>"><button class="btn btn-block btn-red" id="hack-<%= guest.id %>">Hack</button></td>
 								<script>
 									$(function() {
 										$("#hack-<%= guest.id %>").click(function() {
