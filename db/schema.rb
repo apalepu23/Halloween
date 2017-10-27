@@ -17,10 +17,10 @@ ActiveRecord::Schema.define(version: 20171027175047) do
 
   create_table "guests", force: :cascade do |t|
     t.string   "fullname"
-    t.string   "ssn"
+    t.string   "phone_number"
     t.string   "secret"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
 end
